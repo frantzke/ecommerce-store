@@ -1,0 +1,26 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+  height: 100dvh;
+  width: 100%;
+}
+
+header.appHeader {
+  box-shadow: none;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/ecommerceapp-dev.appspot.com/o/tshbCLdbZzHnMXV87TxG%2FWOMEN-Cardigans-id_00006476-02_1_front.jpg?alt=media&token=b5d4d665-16d7-4acd-802d-dc0129392da3');
+
+  /* Full height */
+  height: 120px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
